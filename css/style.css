@@ -1,0 +1,68 @@
+body {
+    position: relative;
+}
+a {
+    color: #FFFFFF;
+}
+a.navbar-brand {
+    color: #FFFFFF;
+}
+.navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+.navbar-nav .nav-link.active {
+    color: #000000;
+}
+.dots {
+    position: fixed;
+    width: 24px;
+    right: 20px;
+    top: 40px
+}
+.dots ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.dots li {
+  margin-bottom: 10px;
+}
+.dots a {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    overflow: hidden;
+    text-indent: -99999px;
+    padding: 0;
+    margin: 0;
+    border: 3px solid #FFFFFF;
+}
+.dots a.active {
+    background-color: transparent;
+}
+section {
+    min-height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section#hero {
+  background-image: url(../images/hero.png);
+}
+section#about-us {
+    background-image: url(../images/about-us.png);
+}
+section#contact-us {
+    background-image: url(../images/contact.png);
+}
+section#services {
+    background-image: url(../images/services.png);
+}
+section#products {
+    background-image: url(../images/products.png);
+}
+section#missions {
+    background-image: url(../images/vision.png);
+
+}
